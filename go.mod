@@ -3,7 +3,8 @@ module github.com/sigstore/fulcio
 go 1.16
 
 require (
-	cloud.google.com/go v0.81.0
+	cloud.google.com/go v0.109.0 // indirect
+	cloud.google.com/go/security v1.10.0
 	github.com/coreos/go-oidc/v3 v3.0.0
 	github.com/fsnotify/fsnotify v1.4.9 // indirect
 	github.com/go-chi/chi v4.1.2+incompatible
@@ -29,13 +30,12 @@ require (
 	github.com/spf13/jwalterweatherman v1.1.0 // indirect
 	github.com/spf13/pflag v1.0.5
 	github.com/spf13/viper v1.7.1
-	github.com/stretchr/testify v1.7.0
+	github.com/stretchr/testify v1.8.1
 	github.com/tidwall/pretty v1.0.2 // indirect
 	go.uber.org/zap v1.16.0
-	golang.org/x/crypto v0.0.0-20201124201722-c8d3bf9c5392 // indirect
-	golang.org/x/net v0.0.0-20210316092652-d523dce5a7f4
-	golang.org/x/oauth2 v0.0.0-20210313182246-cd4f82c27b84
-	google.golang.org/genproto v0.0.0-20210402141018-6c239bbf2bb1
-	google.golang.org/protobuf v1.26.0
+	golang.org/x/net v0.0.0-20221014081412-f15817d10f9b
+	golang.org/x/oauth2 v0.0.0-20221014153046-6fdb5e3db783
+	google.golang.org/genproto v0.0.0-20230113154510-dbe35b8444a5
+	google.golang.org/protobuf v1.28.1
 	gopkg.in/ini.v1 v1.62.0 // indirect
 )
